@@ -1,0 +1,281 @@
+/* ///////////////////Nav bar ///////////////////////////// */
+#nav-bar{
+    background-color: #F3C892;
+    padding: 2% 5%;
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #670000;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+}
+.let-talk{
+    height: 80px;
+    width: 200px;
+    background-color: #541212;
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.arrow{
+padding: 10px;
+}
+.new-btn{
+    background-color:#541212 ;
+        color: white;
+        border: 0;
+}
+/* ////////////////////////////HOME SECTION CSS//////////////////////// */
+
+#title{
+    padding-top: 54px;
+    text-align: right;
+    height: 500px;
+    background-color: #F3C892;
+}
+.name{
+    font-size: 63px;
+    margin-bottom: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 0;
+    display: block;
+    color: #670000;
+}
+.home-p{
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    font-weight: 300;
+}
+/* ////////////////////ABOUT SECTION CSS////////////////////////// */
+#about{
+    margin-top: 40px;
+}
+.my-img{
+    height: 500px;
+    width: 450px;
+    text-align: right;
+}
+.abt-h1{
+    font-size: 300%;
+    color:#541212 ;
+}
+.abt-p{
+    font-family: "Montserrat-black";
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* /////////////////////FEAUTRES SECTION CSS////////////////// DONE //////////////////// */
+.fea-div{
+    margin-top: 60px;
+}
+.fea-h2{
+    color:#670000 ;
+    font-size: 50px ;
+    font-family: "Montserrat-Bold";
+}
+.fea-spa{
+    font-size: 20px;
+    text-align: center;
+}
+.extra-space{
+    height: 250px;
+}
+/* /////////////////////EXPERIENCE SECTION CSS////////////////// DONE //////////////////// */
+#experience{
+    background-color: #670000;
+    
+}
+/* /////////////////////EDUCATION SECTION CSS////////////////// DONE //////////////////// */
+#education{
+    background-color: #670000;
+    margin: 0;
+    padding: 0;
+}
+.edu-li{
+    margin-left: 50px;
+}
+.edu-h1{
+    font-size: 50px;
+    font-family: "Montserrat-Bold";
+    color: white;
+    margin-top: 60px;
+    line-height: 2;
+    
+}
+.edu-h2{
+    color: #EEC373;
+    margin-bottom: 20px;
+   
+}
+.edu-spa{
+    color: white;
+    margin-bottom: 20px;
+    
+}
+hr{
+    color: white;
+}
+.extra-space2{
+    height: 100px;
+}
+
+
+
+/* //////////////////////EXPERTISE SECTION /////////////////////////////DONE////////////// */
+
+#expertise{
+    background-color:#EEC373 ;
+}
+.exp-h1{
+    color:  #670000;
+    font-size: 65px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.card-li{
+    margin: 30px;
+    
+}
+.card-div{
+    margin: 30px;
+    background-color: #FFF8F3;
+    overflow:hidden;
+}
+.card-ti{
+    font-size: 28px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color:  #670000;
+    line-height: 2;
+}
+.card-txt{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.extra-space2{
+    height: 20px;
+    background-color:#EEC373 ;
+}
+
+/* /////////////////////CONTACT FORM SECTION CSS//////////////////////////DONE/////////////// */
+#contact-form {
+    background-color: #670000;
+
+}
+.cv-div {
+    background-color: #670000;
+}
+
+
+.con-h1 {
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: white;
+    padding: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.extra-space3 {
+    height: 20px;
+}
+
+.cv-btn {
+    /* text-align: center;
+    padding: 25px; */
+    color: #670000;
+    margin-top: 40px;
+
+}
+
+
+.con-h3 {
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.form-in {
+    background-color: #670000;
+    border: 1px solid white;
+    /* margin-left: 40px;*/
+    margin-top: 40px;
+    /* height: 50px; */
+}
+
+.form-mes {
+    margin-top: 40px;
+}
+
+.form-inp {}
+
+.form-mes2 {
+    background-color: grey;
+    color: #670000;
+    margin-bottom: 40px;
+}
+
+.con-la {}
+
+.last {
+    margin-top: 40px;
+}
+
+.last-submit {
+    margin-top: 40px;
+}
+
+.con-cv {
+    background-color: #670000;
+}
+
+
+
+
+/* Media queries for mobile size  */
+@media (max-width:768px) {
+    .cv-btn {
+        display: none;
+    }
+}
+
+@media (max-width:425px){
+.name{
+    font-size: 40px;
+}
+}
+
+@media (max-width:768px){
+.let-talk{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
